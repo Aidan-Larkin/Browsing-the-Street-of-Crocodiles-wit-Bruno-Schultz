@@ -11,6 +11,22 @@
 
 
 
+#bannerimage {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../Images/crocodiles.png) no-repeat;
+    background-color: #74FBB8;
+    background-position: center;
+  }
+
+
+h1 {
+    color: white;
+    font-family: Arial;
+    text-align: left;
+}
+
+
 /*css grids*/
 .grid{
     display: flex;
