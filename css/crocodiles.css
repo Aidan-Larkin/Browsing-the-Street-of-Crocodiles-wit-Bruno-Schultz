@@ -1,5 +1,7 @@
 /* Font chosen from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 /* css reset */
 *{
@@ -42,7 +44,7 @@ body {
 
 /* Default styling for headings */
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Josefin Sans", Georgia, 'Times New Roman', Times, serif;
+    font-family: "Chelsea Market", Georgia, 'Times New Roman', Times, serif;
     Line-height: 1.1;
     font-weight: 700;
 }
@@ -71,7 +73,7 @@ h4 {
 
 /*Paragraphs*/
 p{
-    font-family: "source sans 3", Arial, Helvetica, sans-serif;
+    font-family: "Crimson Text", Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.125rem;
@@ -81,7 +83,7 @@ p{
 
 /*large Paragraphs*/
 p.large {
-    font-family: "Josefin Sans", Georgia, 'Times New Roman', Times, serif;
+    font-family: "Crimson Text", Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1.5rem;
@@ -129,7 +131,7 @@ img {
 
     /*blockquote*/
 figure.quote {
-border-left: 8px solid #D8415C;
+border-left: 8px solid #74FBB8;
 padding:1.5rem 0 1.5rem 2rem;
 margin-bottom: 2rem;
 }
@@ -163,7 +165,7 @@ figure.quote p{
 
             .colour-block{
                 padding:3rem 0 3rem 0;
-                background-color:#CBD7DF;
+                background-color:#74FBB8;
                 margin-bottom:2.5rem;
                 }
     
