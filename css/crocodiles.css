@@ -65,15 +65,10 @@ body, html {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ffffff;
+    background-color: #74FBB8;
     color: black;
   }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #74FBB8;
-    color: #292929;
-  }
 
 
 
@@ -183,9 +178,6 @@ a {
     /*Hyperlinks - states*/
     a:hover {
         color:#00447B;
-        }
-        a:visited {
-        color:#6935d2;
         }
 
         /* images*/
