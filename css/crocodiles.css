@@ -22,6 +22,8 @@ body, html {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url(../images/crocodilenotext.png);
   background-color: #74FBB8;
+  
+
 
   /* Set a specific height */
   height: 50%;
@@ -43,8 +45,7 @@ body, html {
   color: #292929;
 }
 
-
-
+  
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -122,6 +123,7 @@ h1 {
 h2 {
     font-size: 2.25rem;
     margin-bottom: 0.5rem;
+    background-color: #74FBB8 
 }
 
 h3 {
@@ -185,7 +187,7 @@ img {
     max-width: 1020px;
     width:100%;
     height:auto;
-    border:1px solid #101010;
+    border-style: none ;
     margin-bottom: 2rem;
     }
 
