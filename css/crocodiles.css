@@ -194,26 +194,13 @@ img {
     border-style: none ;
     margin-bottom: 2rem;
     }
-
-
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-
-#book1 {
+.column {
     float: left;
     width: 33.33%;
     padding: 5px;
   }
   
-#book2 {
-    float: right;
-    width: 33.33%;
-    padding: 5px;
-  }
-
-  .column {
- 
-  }
-
   /* Clear floats after image containers */
   .row::after {
     content: "";
@@ -221,11 +208,16 @@ img {
     display: table;
   }
 
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
 
-
-
-
-
+    
     /*blockquote*/
 figure.quote {
 border-left: 8px solid #74FBB8;
