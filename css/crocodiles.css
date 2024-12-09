@@ -45,7 +45,6 @@ body, html {
   position: absolute;
   top: 50%;
   left: 10%;
-  transform: translate(-50%, -50);
   color: #292929;
 }
 
@@ -151,6 +150,16 @@ p{
     margin-bottom: 1.5rem;
     font-style: normal;
 }
+
+#bschulz {
+    text-align: left;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    color: #292929;
+  }
+
+
 
 /*large Paragraphs*/
 p.large {
